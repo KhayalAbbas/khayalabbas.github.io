@@ -1,0 +1,48 @@
+aside .tags li, .pagination .active, .pagination li:hover, .color > span, .button, .title_section h1, #button_download, .social li {  
+  background-color: black;  
+  background-image: none;  
+  background-repeat: repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+}
+
+.img-preview {  
+  background-color: rgba(0, 0, 0, 0.8);  
+  background-image: none;  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: center center;
+}
+
+a, .post a h3:hover, .accordion-trigger:hover, .accordion-trigger.active, .item_info p, .title_area h1, .title_resalt, ul.check li i {  
+  color: black;
+}
+
+.logo {  
+  border-top-width: 3px;  
+  border-top-style: solid;  
+  border-top-color: black;
+}
+
+.is-sticky {  
+  background-color: rgba(0, 0, 0, 0.9);  
+  background-image: none;  
+  background-repeat: repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+}
+
+.title_section .arrow_title {  
+  background-color: transparent;  
+  background-image: url("arrow_title.png");  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+}
+
+.Example {  
+  border-left-width: 1px;  
+  border-left-style: solid;  
+  border-left-color: #336666;
+}
+

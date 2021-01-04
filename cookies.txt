@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-aaltodoc.aalto.fi	TRUE	/	FALSE	1999999999	JSESSIONID	587FE5DC7A28924CE446A53A031EB3D9
-.dl.acm.org	TRUE	/	FALSE	1999999999	__cfduid	daa54e0c4c81031abe548857b5dda85631609791113
-dl.acm.org	TRUE	/	FALSE	1999999999	SameSite	Lax
-

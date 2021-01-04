@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from annafeit.de/pianotext/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jan 2021 20:13:45 GMT -->
+<head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>PianoText: Turn your Piano into a Typewriter</title>
+    <!-- TemplateEndEditable -->
+    <link href="http://www.mpii.mpg.de/favicon.ico" rel="SHORTCUT ICON" />
+    <link href="my.css" media="screen" type="text/css" rel="stylesheet" />
+    <link href="print.css" media="print" type="text/css" rel="stylesheet" />
+    <!-- TemplateBeginEditable name="head" -->
+    <style media="screen" type="text/css">
+      a#n4-departments, a:link#n1-departments, a:visited#n1-departments {color: #fff;}
+      a#n2-departments, a:link#n2-departments, a:visited#n2-departments {background: rgb(80%,85%,90%);}
+      a#d4-homepage, a:link#d4-homepage, a:visited#d4-homepage {background: rgb(80%,85%,90%);}
+      a#d4-people, a:link#d4-people, a:visited#d4-people {background: rgb(80%,85%,90%);}
+      li.hps {margin-top:10px;} 
+      
+      a:link {text-decoration: none;}
+      a:visited {text-decoration: none;}
+      a:hover{color: red;}
+      
+    </style><!-- TemplateEndEditable -->
+  </head>
+  <body>
+    <center>
+      <div id="head2o2">
+        <div id="mpiitext">max planck institut informatik</div>
+        <img width="300" height="100" id="mpiilogo" src="mpii.jpg" alt="mpii" usemap="#Map" />
+        <map name="Map" id="Map">
+          <area shape="rect" coords="97,14,296,70" href="http://www.mpi-inf.mpg.de/"
+
+            alt="mpii logo" />
+          <area shape="circle" coords="41,49,40" href="http://www.mpg.de/" alt="Minerva of the Max Planck Society" />
+        </map>
+      </div>
+      <div style="top: 113px; height: 3092px;" id="col2o2">
+        <div id="col2o2content"> <br />
+          <h1> PianoText: Turn your Piano into a Typewriter </h1>
+          <br />
+          <center>
+            <h2> PianoText: Turn your Piano into a Typewriter</h2>
+            <div>
+              <h2>Anna Feit        <a href="http://www.mpi-inf.mpg.de/~oantti/">Antti
+                  Oulasvirta</a></h2>
+              <iframe width="640" height="480" frameborder="0" allowfullscreen=""
+
+                src="http://www.youtube-nocookie.com/embed/-ykkTXo2Zyg?rel=0"></iframe>
+              <br />
+            </div>
+          </center>
+          <h1> What is PianoText? </h1>
+          <div id="descirption">
+            <p>PianoText is a mapping of language to music that allows to use
+              any piano with a MIDI output for text entry.</p>
+            <p> It was inspired by the breathtaking performances of pianists
+              like<a target="_blank" href="http://goo.gl/wQbZJ"> Yuja Wang</a>
+              and the <a href="http://en.wikipedia.org/wiki/David_Edward_Hughes">Hughes
+                Telegraph</a>, a piano-like input device that was used in the
+              mid of the 19th century, until the typewriter took over the
+              market. Telegraphers of this time are known to enter text at a
+              performance rate of 40 wpm or less which is nothing against an
+              experienced pianist playing Rimski-Korsakow's Fligh of the
+              Bumblebee - a performance rate of over 200 wpm!</p>
+            <p>The goal of PianoText was to find a better mapping from letters
+              to notes such that the <span style="font-weight: bold;">expertise
+              </span>of a pianist is <span style="font-weight: bold;">transferred
+                </span>to the process of text entry and thus typing on the piano
+              could reach similar performance rates as playing it. Therefore we
+              developed a computational method that searched for a mapping
+              between motor pattern in typing and piano playing, considering
+              their n-gram frequency distributions and respecting constraints
+              affecting the playability of music. The resulting mapping doubles
+              the performance rates of the Hughes telegraph and there is still
+              room for improvement.</p>
+            <p> It has the following features:</p>
+            <ul>
+              <li>An optimized finger travel distance for the English language,
+                i.e. frequent letter pairs are close together</li>
+              <li>It exploits the existing motor skills of the pianist by
+                emulating musical structures</li>
+              <li>The use of chords to enter a sequence of letters with one
+                stroke, which improves the performance by more than 30%</li>
+              <li>Redundancy: letters are mapped multiple times to different
+                keys in different octaves. This together with chords creates
+                many ways to enter a sequence of letters of which the user can
+                choose the fastest. It also clusters the piano in several areas
+                in which the user can type different words very quickly.</li>
+            </ul>
+            <p>PianoText not only shows how to improve the Hughes telegraph but
+              also gives insights into concepts that could be exploited for <span
+
+                style="font-weight: bold;">standard text entry devices</span>.
+              The use of chords and redundancy significantly improves the
+              performance. PianoText gives us the chance to study these concepts
+              and the arising phenomena that change the typing process more
+              closely.</p>
+          </div>
+          <h1>Try it out! </h1>
+          <div id="software">     <br />
+            <table border="1" style="width: 100%; top: 1045px; height: 523px;">
+              <tbody>
+                <tr>
+                  <td style="width: 460.45px;">
+                    <h3> To use your piano keyboard as a text entry device you
+                      need: </h3>
+                    <h2> </h2>
+                    <ul>
+                      <li>A piano with a MIDI output, connected to your computer
+                        (look e.g. <a target="_blank" href="http://blog.pianocrumbs.com/post/25763221821/how-to-connect-piano-keyboard-to-computer">here
+                          </a>on how to do this).</li>
+                      <li><a target="_blank" href="http://jdk7.java.net/download.html">Java
+                          Runtime Environment (JRE) 7.0 </a> installed and
+                        running.</li>
+                      <li>The software was developed and used under Linux. <br />
+                        However, java is platform independent, thus it should
+                        also work under Windows or Mac.</li>
+                    </ul>
+                       <br />
+                        If you have this ready download the following from our
+                    web server:<br />
+                    <table border="0" style="width: 433px; left: 208px;">
+                      <tbody>
+                        <tr>
+                          <td style="width: 44.9333px;"><img src="zip.png" /></td>
+                          <td style="width: 989.067px;"><span style="font-weight: bold;"><a
+
+                            href="../resources/pianotext/PianoText.zip">PianoText:
+                                Keystroke Emulator</a> </span>(.ZIP, 314 KB)</td>
+                        </tr>
+                        <tr>
+                          <td><img src="zip.png" /><br />
+                          </td>
+                          <td><a href="../resources/pianotext/PianoText_Training.zip"><span
+
+                                style="font-weight: bold;">PianoText: Trainer</span>
+                            </a>(.ZIP, 1,5 MB)</td>
+                        </tr>
+                        <tr>
+                          <td><img src="PDF.png" /></td>
+                          <td>Our <a href="../resources/pianotext/mapping.pdf"><span
+
+                                style="font-weight: bold;">cheat sheet</span></a>
+                            for the mapping (PDF, 613 KB)</td>
+                        </tr>
+                        <tr>
+                          <td><img src="PDF.png" /></td>
+                          <td>An <a href="../resources/pianotext/example.pdf"><span
+
+                                style="font-weight: bold;">example music sheet</span></a>
+                            (PDF, 26KB)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p> <span style="font-weight: bold;">Our challenge to you:</span>
+                      Play the example music sheet to see what sentences we
+                      translated. Play it as fast as possible and see if you can
+                      beat our Professional pianist who reached a performance
+                      rate of 80 wpm (at first sight!) </p>
+                  </td>
+                  <td style="width: 579.55px;"><br />
+                    <h3>If you just want to try it out:</h3>
+                    <ol>
+                      <li>Unzip the <span style="font-style: italic; font-weight: bold;">PianoText.zip</span>
+                        folder to your preferred location<br />
+                      </li>
+                      <li>Start a command window and navigate to the <span style="font-style: italic;">PianoText
+                          </span>folder in this location (cd <<span style="font-style: italic;">PathToPianoText&gt;</span>)</li>
+                      <li>Run the <span style="font-style: italic;">PianoText.jar</span>
+                        (java -jar KeystrokeSimulator_WEB.jar)<br />
+                        <span style="font-style: italic;">(Windows: simply
+                          double click the KeystrokeSimulator_WEB.jar)</span></li>
+                      <li>Choose your Midi Device from the drop-down list in the
+                        opened window</li>
+                      <li>In your task bar the PianoText icon appears. It
+                        indicates that PianoText is running. Click on it to open
+                        the context menu with different options.</li>
+                      <li>Open any text document, web browser or email program
+                        to try out text entry with the piano keyboard<span style="font-weight: bold;">.</span></li>
+                      <li>Enjoy<span style="font-weight: bold;">!</span><br />
+                        <span style=" font-weight: bold;"></span></li>
+                    </ol>
+                    <p>You don't have to learn the mapping! Use the<span style="font-weight: bold;">
+                        cheat sheet </span>to see which note / chord translates
+                      to what.</p>
+                    <br>
+                    <h3> If you want to learn the mapping: <br />
+                    </h3>
+                    <ol>
+                      <li>Unzip the <span style="font-style: italic;">PianoText_Training.zip</span>
+                        folder to your preferred location</li>
+                      <li>Start a command window and navigate to the <span style="font-style: italic;">PianoText_Training</span>
+                        folder in this location (cd <span style="font-style: italic;">PathToPianoText_Training&gt;</span>)</li>
+                      <li>Run the <span style="font-style: italic;">PianoText_Training.jar</span>
+                        (java -jar PianoText_Training.jar)<br />
+                        <span style="font-style: italic;">(Windows: simply
+                          double click the PianoText_Training.jar)</span></li>
+                      <li><span style="font-weight: bold;">First </span>Choose
+                        your Midi Device from the drop-down list in the opened
+                        window</li>
+                      <li>Choose an exercise from the list on the left. The
+                        window at the right shows its goal, description and your
+                        previous performances (if any)</li>
+                      <li>Do all exercises in order to become a PianoText Master
+                        :)  </li>
+                      <br>
+                      <br>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h1>Articles and Videos</h1>
+          <br />
+          <table style="top: 837px; left: 199px; width: 911px;">
+            <tbody>
+              <tr>
+                <td style="width: 207.167px;"> <a href="../resources/pianotext/PianoText_DIS14.pdf"
+
+                    target="_top"><img border="1" src="page_DIS.png" style="top: 853px; left: 248px; width: 109px; height: 140px;"
+
+                      alt="PianoText_page1" /></a> </td>
+                <td style="height: 158.85px; width: 693.833px;"><b>PDF copy of
+                    the paper presented at the ACM conference on Designing
+                    Interactive Systems 2014, Vancouver:</b><span style="font-weight: bold;"><br />
+                  </span><br />
+                  <span style="font-weight: bold;"><a target="_blank" href="../resources/pianotext/PianoText_DIS14.pdf">
+                      PianoText: Redesigning the Piano Keyboard for Text Entry:</a></span><span
+
+                    style="font-weight: normal;"><br />
+                      Feit, A., Oulasvirta, A.</span><br />
+                    In Proceedings of the ACM conference on Designing
+                  Interactive Systems 2014<br />
+                  <span style="font-weight: normal;">(Adobe Acrobat PDF, 254 KB)</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="top: 837px;">
+            <tbody>
+              <tr>
+                <td style="width: 207.933px;"> <a href="../resources/pianotext/PianoText_CHI13_extended-abstract.pdf"
+
+                    target="_blank"><img border="1" src="page1.png" style="top: 1901px; left: 234px; width: 162px; height: 127px;" /></a>
+                </td>
+                <td style="width: 667px; height: 158.85px;"><b>PDF copy of the
+                    Extended Abstract accompanying the Demonstration at CHI
+                    2013, Paris:</b><span style="font-weight: bold;"><br />
+                  </span><br />
+                  <span style="font-weight: bold;"><a target="_blank" href="../resources/pianotext/PianoText_CHI13_extended-abstract.pdf">
+                      PianoText: Transferring Musical Expertise to Text Entry</a>
+                  </span><span style="font-weight: normal;"><br />
+                      Feit, A., Oulasvirta, A.</span><br />
+                    <i>Extended Abstracts on Human Factors in Computing Systems</i>
+                  ACM, 2013 <br />
+                  <span style="font-weight: normal;">(Adobe Acrobat PDF, 2.6 MB)</span></td>
+                <td><br />
+                </td>
+                <td>  <br />
+                </td>
+              </tr>
+              <tr>
+                <td> <a data-height="600" data-width="800" class="html5lightbox"
+
+                    href="../resources/pianotext/Example_Study2.mp4"
+
+                    target="_top"> <img src="videoPrev.png" style="top: 2061px; left: 214px; width: 164px; height: 128px;"
+
+                      alt="performance example" /> </a> <br />
+                </td>
+                <td> <a href="../resources/pianotext/Example_Study2.mp4"
+
+                    target="_blank"><b>Performance Example:</b></a><br />
+                  <span style="font-weight: bold;">   </span><br />
+                  Example sentences from the last test, entered with an input
+                  rate of over 80 wpm. <br />
+                  <a href="../resources/pianotext/Example_Study2.mp4"
+
+                    target="_blank"><img src="download.png" style="top: 1870px; left: 430px; width: 39px; height: 39px;" /></a><br />
+                  <br />
+                  (.mp4, 6.22 MB)<br />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h1> Media Coverage </h1>
+          <br />
+          Television: <br />
+          <br />
+             Germany: TV Total by Stefan Raab, 21.01.14:                    
+          Switzerland: Aeschbacher, 08.05.14<br />
+          <a href="http://tvtotal.prosieben.de/tvtotal/videos/player/index.html?contentId=150028"><img
+
+              style="top: 2257px; left: 211px; width: 323px; height: 181px;" alt="TV Total"
+
+              src="TV_total_prev.jpg" /></a><a href="http://www.srf.ch/player/tv/aeschbacher/video/anna-feit-und-mirella-scholtes?id=65cc1cf0-1ec5-40ff-a61a-06c1551548f9"><img
+
+              style="top: 2289px; left: 560px; width: 326px; height: 181px;" alt="Aeschbacher"
+
+              src="aeschbacher.png" /></a><br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <ul>
+          </ul>
+          Articles in English:<br />
+
+          
+          <ul>
+            <li> <a href="http://mags.acm.org/interactions/november_december_2014/?folio=8&amp;CFID=411566207&amp;CFTOKEN=94153902#pg12">
+              PianoText in ACM's IX Interaction Magazine. Demo Hour.</a></li>
+            <li><a href="http://www.sciencedaily.com/releases/2013/09/130919085432.htm">ScienceDaily:
+                "The Piano as as Typewriter"</a>
+            </li>
+            <li><a href="http://www.mpg.de/7525831/piano_as_typewriter">Max-Planck
+                Gesellschaft: "The piano as a typewriter"</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://www.classicfm.com/music-news/latest-news/pianists-like-professional-typists-study/">CLASSIC
+                fM: "Pianists are like professional typists, says new study"</a></li>
+            <li><a href="http://iloveubuntu.net/meet-pianotext-link-between-computer-and-piano-typing-wise">iloveubuntu:
+                "Meet PianoText, link between computer and piano (typing-wise)"</a><br />
+            </li>
+          </ul>
+          Articles in German:<br />
+          <ul>
+            <li><a href="http://www.golem.de/news/texteingabe-texte-schreiben-auf-dem-klavier-1309-101624.html">Golem.de:
+                "Texte schreiben auf dem Klavier"</a></li>
+            <li><a href="http://www.wissenschaft.de/home/-/journal_content/56/12054/2183638/Kurios%3A-Texte-schreiben-mit-Klaviertasten/">Bild
+                der Wissenschaft: "Kurios: Texte schreiben mit dem Klavier"</a></li>
+            <li><a href="http://www.scinexx.de/wissen-aktuell-16661-2013-09-17.html">scinexx:
+                "Texte-Schreiben auf dem Klavier"</a><br />
+            </li>
+            <li><a href="http://www.sr-online.de/sronline/nachrichten/panorama/texte_schreiben_mit_dem_klavier100.html">sr-online:
+                "Die Melodie des Tages"<br />
+                <br />
+              </a></li>
+          </ul>
+          <h1>Aditional Materials</h1>
+          <br />
+          <div id="abstract">
+            <div id="abstract">
+              <ul>
+                <li><a href="../resources/pianotext/PM_Schreiben.pdf"><b>Press
+                      release:</b> "Schreiben auf dem Klavier"</a></li>
+                <li><a href="../resources/pianotext/study.jpg"><b>Image</b>:
+                    Study with a trained pianist</a></li>
+                <li><a href="../resources/pianotext/typing.jpg"><b>Image</b>:
+                    Pianist typing on the Piano <br />
+                  </a></li>
+              </ul>
+            </div>
+            <br />
+            <h1>Links</h1>
+            <br />
+            <div id="abstract">
+              <ul>
+                <li><a href="http://keithv.com/software/enronmobile/">The Enron
+                    Mobile Email Dataset</a></li>
+              </ul>
+            </div>
+            <br />
+            <h1>Citation</h1>
+            <br />
+            <div id="abstract"> <b>Bibtex:</b>
+               <pre><code><br /> @inproceedings{feit2014pianotext,
+                author = {Feit, Anna Maria and Oulasvirta, Antti},
+                title = {PianoText: Redesigning the Piano Keyboard for Text Entry},
+                booktitle = {Proceedings of the 2014 Conference on Designing Interactive Systems},
+                series = {DIS '14},
+                year = {2014},
+                isbn = {978-1-4503-2902-6},
+                location = {Vancouver, BC, Canada},
+                pages = {1045--1054},
+                numpages = {10},
+                url = {http://doi.acm.org/10.1145/2598510.2598547},
+                doi = {10.1145/2598510.2598547},
+                acmid = {2598547},
+                publisher = {ACM},
+                address = {New York, NY, USA},
+                keywords = {text entry, the piano keyboard},
+               }               
+              </code></pre>
+              <pre><code><br />@inproceedings{feit2013pianotext,
+               author = {Feit, Anna Maria and Oulasvirta, Antti},
+               title = {PianoText: transferring musical expertise to text entry},
+               booktitle = {CHI '13 Extended Abstracts on Human Factors in Computing Systems},
+               year = {2013},
+               pages = {3043--3046},
+               url = {http://doi.acm.org/10.1145/2468356.2479606},
+               publisher = {ACM},
+               keywords = {computational keyboard design, text entry, the piano keyboard, transfer of expertise},
+              } 
+            </code></pre>
+             
+            </div>
+            <h1> Contact </h1>
+            <div id="contact">
+              <p> If you have any problems concerning the software or any
+                questions about the project, don't hesitate to write an email!<span
+
+                  style="font-weight: bold;"><br />
+                  <br />
+                </span><span style="font-weight: bold;">Anna Maria Feit</span><br />
+                Aalto University, Department of Electrical Engineering<br />
+                <span style="font-weight: bold;">feitanna@gmail.com</span><br />
+                <span style="font-weight: bold;"></span></p>
+            </div>
+            <div id="footer">Copyright 2013 by <a title="Home Page of the Max-Planck-Institute Informatik"
+
+                href="http://www.mpi-inf.mpg.de/">Max-Planck-Institut Informatik</a>
+              | <a title="Impressum and legal notices, Umsatzsteuer ID, Swift Code, BIC"
+                href="http://www.mpi-inf.mpg.de/impressum.html">Impressum</a><br />
+              
+              </div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <script type="text/javascript" async="" src="ga.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44191940-1', 'mpg.de');
+  ga('send', 'pageview');
+
+</script> </body>
+
+<!-- Mirrored from annafeit.de/pianotext/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jan 2021 20:29:25 GMT -->
+</html>

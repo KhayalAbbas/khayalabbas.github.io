@@ -1,0 +1,101 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="author" content="Kathryn Stolee" />
+<meta name="keywords" content="Kathryn Stolee, Katie Stolee, NC State, NCSU, software engineering, code search" />
+<meta name="description" content="Kathryn Stolee is an Associate Professor at North Carolina State University in the Department of Computer Science." />
+<link rel="stylesheet" type="text/css" href="main.css" />
+<title>Kathryn T. Stolee</title>
+</head>
+<body>
+<!-- Header. -->
+<table class="header">
+  <tr>
+    <td class="header-title">Kathryn T. Stolee</td>
+    <td class="header-icon">
+      
+    </td>
+  </tr>
+</table>
+
+<!-- Navigation bar. -->
+<table class="navbar">
+  <tr>
+    <td class="navitem navitem-current"><a href="./index.html">Home</a></td>
+    <td class="navitem"><a href="./publications.html">Publications</a></td>
+   <td class="navitem"><a href="./research.html">Research Projects</a></td>
+       <td class="navitem"><a href="./teaching.html">Teaching</a></td>
+    <td class="navitem"><a href="./contact.html">Contact and CV</a></td>
+  </tr>
+</table>
+
+<!-- Text. -->
+<img id="photo" src="me.jpg" width="225" alt="Me"/>
+<p>
+<table border="0">
+<tr> <td>
+  
+    
+<pemph>I am recruiting motivated PhD students starting in Fall 2021. Interested? <a href="contact.html">Contact me</a>. </pemph>
+<br />
+
+<!--  <pemph>
+    Would you like to know more? Take my <a href="https://docs.google.com/document/d/1pR_HTpRZtJbsAptmttZExSbRd82ryq3Y6iM5vS7kNf8/edit#">CSC 591/791 graduate class on program repair</a>! 
+  </pemph>
+-->
+
+  <p> <b>Email</b>: ktstolee 'at' ncsu 'dot' edu</p>
+
+    
+  <p><b>Bio:</b> I am an Associate Professor in the <a href="http://www.csc.ncsu.edu/">Department of Computer Science</a> at North Carolina State University.
+ I received my Ph.D. in Computer Science in August 2013 from the University of Nebraska-Lincoln as a member of the ESQuaReD lab under the supervision of <a target="_blank" href="http://cse.unl.edu/~elbaum">Sebastian Elbaum</a>.
+</p>
+
+    
+    
+<div class="bar">Recent Events <a href="oldnews.html">(old news)</a></div>
+  <ul class="compactlist">
+    <li><b>January 2021</b>: Our paper, "SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries", with Kai Presler-Marshall and Sarah Heckman was accepted to ICSE 2021 JSEET </li>
+    <li><b>July 2020</b>: With <a href="http://chrisparnin.me/">Chris Parnin</a>, our grant, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2006947">"Automated Discovery of Cross-Language Program Behavior Inconsistency"</a> was funded by the NSF! </li>
+  	<li><b>July 2020</b>: Our paper, "How Graduate Computing Students Search When Using an
+Unfamiliar Programming Language", was presented by Gina Bai at ICPC 2020 (<a href="papers/icpc2020.pdf">pdf</a>)</li>
+  	<li><b>July 2020</b>: Our paper, "An Empirical Study on Regular Expression Bugs", was presented by Peipei Wang at MSR 2020 (<a href="papers/msr2020.pdf">pdf</a>)</li>
+    <li><b>July 2020</b>: Our paper, "SLACC: Simion-based Language Agnostic Code Clones" by George Mathew, Chris Parnin and Kathryn T. Stolee was presented ICSE 2020. <a href="papers/ICSE2020.pdf">(pdf)</a> </li>
+    <li><b>May 2020</b>: <i>I was promoted to Associate Professor with Tenure!</i></li>
+ </ul>
+ 
+</td>
+</table>
+
+
+<div class="bar">Research Interests</div>
+
+  <p>
+  My research makes innovative contributions to our knowledge of program analysis, human aspects of software engineering, and their intersection.
+As examples, I have explored how refactoring a regular expression can improve comprehension (<a href="papers/ase2017.pdf">pdf</a>), how a constraint solver can identify code for a human to reuse (<a href="papers/TOSEM2014.pdf">pdf</a>), and how cross-language code-to-code search may help developers learn a new language (<a href="papers/ICSE2020.pdf">pdf</a>).
+ These efforts combine analysis (refactoring, semantic code search, code-to-code search) with human factors (comprehension, reuse, learning). 
+ The innovative and influential nature of this research has been recognized by the computer science community at large, as
+ I have been awarded over $1,500,000 in federal grants including an NSF CAREER award. 
+In addition to my scholarly contributions, I am active in the software engineering research community's top conferences as an author, reviewer, and organizer. 
+I am intentional about mentoring the next generation, especially women. <i>Fun fact: three of my papers have all-female authors (<a href="papers/saner2019regex.pdf">1</a>)(<a href="papers/fse2018.pdf">2</a>)(<a href="papers/ieesoftware2018.pdf">3</a>).</i>
+  </p>
+
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-66800827-1', 'auto');
+     ga('send', 'pageview');
+     
+    </script>
+</body>
+</html>
